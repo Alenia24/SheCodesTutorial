@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Logical Operators</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>SheCodes</h1>
+
+    <script>
+        let language = prompt("Which language do you speak?");
+        let continent = prompt("Which continent are you from?");
+
+        if(language === "French"  && continent === "Europe") {
+            alert("Bonjour");              
+        }
+
+        let age = prompt("How old are you?");
+
+        if(age < 16 || age > 120) {
+            alert("You cannot drive a car");
+        } else {
+            alert("You can drive a car")
+        }
+
+    </script>
+</body>
+</html>
